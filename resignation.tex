@@ -1,0 +1,62 @@
+\documentclass[uplatex, 12pt, a4paper, report,
+				oneside, dvipdfmx]{jsbook}
+\usepackage[truedimen, top=25truemm, bottom=20truemm,
+			left=25truemm, right=20truemm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\rhead{}
+\cfoot{}
+\renewcommand{\headrulewidth}{0pt}
+
+\input{config}
+
+\title{退職願}
+\author{\myname}
+
+\begin{document}
+\newpage
+	
+	\begin{center}
+		{\Huge 退職願}
+	\end{center}
+	\bigskip
+	
+	\Large
+	\begin{flushright}
+		\submitdate
+	\end{flushright}
+	
+	\begin{flushleft}
+		\company\\
+		\tojob　\toname　様
+	\end{flushleft}
+
+	\begin{flushright}
+		\myjob\\
+		\myname
+	\end{flushright}
+
+	\bigskip
+	\bigskip
+	\bigskip
+	\bigskip
+	\bigskip
+
+	\begin{flushright}
+		私事、
+	\end{flushright}
+	\medskip
+
+	\begin{flushleft}
+		このたび、一身上の都合により、\\
+		来たる\resignationdate をもって、退職致したく\\
+		ここにお願い申し上げます。
+	\end{flushleft}
+	\medskip
+
+	\begin{flushright}
+		以上
+	\end{flushright}
+
+\end{document}

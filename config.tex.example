@@ -1,0 +1,7 @@
+\newcommand\company{○○○○株式会社}
+\newcommand\tojob{△△部}
+\newcommand\toname{直属 上司}
+\newcommand\myjob{△△部}
+\newcommand\myname{退職 太郎}
+\newcommand\submitdate{○○○○年△△月××日}
+\newcommand\resignationdate{○○○○年△△月××日}
